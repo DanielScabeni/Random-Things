@@ -1,0 +1,65 @@
+MULTIPLCIANDO MATRIZ
+
+|
+|
+
+import pandas as pd
+import numpy as np
+
+A = [[1, 2],
+     [2, 3]]
+B = [[4, 5],
+     [6, 7]]
+
+print ("Matriz A: ")
+print(A)
+print("Matiz B: ")
+print(B)
+
+resulMatriz = np.dot(A, B)
+print ("A multiplicação é: ")
+print (resulMatriz)
+
+|
+|
+
+SOMANDO MATRIZ
+|
+|
+
+import numpy as np
+
+A = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+
+A = np.array(A)
+print(A)
+
+print(" ")
+
+print("A soma é: ")
+totalSoma = A.sum(axis = 1)
+print(totalSoma)
+
+#totalSub = A.subtract(axis = 1)
+#print(totalSub)
+#não deu certo a subtração :(
+
+|
+|
+
+TRANSPONDO MATRIZ
+|
+|
+
+import numpy as np
+
+A = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+
+print("matriz transposta de A: ")
+B = np.array(A)
+
+print (B.T)

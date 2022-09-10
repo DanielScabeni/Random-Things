@@ -1,0 +1,113 @@
+body {
+    font: 70px Roboto, sans-serif;
+    text-align: center;
+    background-color: rgb(155, 4, 4);
+}
+body h1 {
+    animation: tremer1 0.2s;
+    animation-iteration-count: infinite;
+}
+body h2 {
+    animation: tremer2 0.2s;
+    animation-iteration-count: infinite;
+}
+body h3 {
+    animation: tremer3 0.2s;
+    animation-iteration-count: infinite;
+}
+body h6 {
+    animation: tremer4 0.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes tremer1 {
+    0% {
+        margin-left: 2px;
+        margin-top: -4px;
+    }
+    25% {
+        margin-left: -6px;
+        margin-top: -8px;
+    }
+    50% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    75% {
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    100% {
+        margin-left: -6px;
+        margin-top: 2px;
+    }
+    100% {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+}
+@keyframes tremer2 {
+    0% {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+    25% {
+        margin-left: 2px;
+        margin-top: -4px;
+    }
+    50% {
+        margin-left: -6px;
+        margin-top: -8px;
+    }
+    75% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    100% {
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+}
+@keyframes tremer3 {
+    0% {
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    25% {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+    50% {
+        margin-left: 2px;
+        margin-top: -4px;
+    }
+    75% {
+        margin-left: -6px;
+        margin-top: -8px;
+    }
+    100% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+@keyframes tremer4 {
+    0% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    25% {
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+    50% {
+        margin-left: 0;
+        margin-top: 4px;
+    }
+    75% {
+        margin-left: 2px;
+        margin-top: -4px;
+    }
+    100% {
+        margin-left: -6px;
+        margin-top: -8px;
+    }
+}
