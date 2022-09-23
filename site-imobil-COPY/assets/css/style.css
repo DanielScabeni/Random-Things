@@ -5,6 +5,10 @@
 body {  
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
 header {
     padding: 20px 20px 0 20px;
 }
@@ -62,7 +66,11 @@ header li button {
     padding: 8px 20px;
     border-radius: 4px;
     margin-left: 16px;
+    line-height: 20px;
 }
+
+
+
 main {
     margin: 32px 0;
 }
@@ -74,9 +82,16 @@ main h2 {
     text-align: center;
     color: #01528a;
 }
+section {
+    margin-top: 64px;
+}
+
+
 #banner {
+    position: relative;
     height: 550px;
     border: 1px solid #dcdceb;
+    background: #fff;
     border-radius: 10px;
     color: #0152ba;
     background-image: url(../img/background-house.png);
@@ -96,11 +111,81 @@ main h2 {
     line-height: 36px;
     margin-bottom: 32px;
 }
-
-
-
-#cards {
-    margin: 32px 0;
+#banner .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 650px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0), #ffffff 50%);
+}
+#banner .banner-filter {
+    background-color: #fff;
+    border: 1px solid #dcdceb;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 21px 43px rgba(8,137,212,0.1);
+}
+#banner .filter-fields {
+    width: 100%;
+    margin-right: 20px;
+}
+#banner .filter-fields form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+#banner .filter-result{
+    border-left:  2px solid #0889d4;
+    width: 80px;
+    padding: 20px, 20px, 20px, 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#banner .result-label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #989898;
+}
+#banner .result-value {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+#banner .filter-result button{
+    background-color: #0889d4;
+    margin-top: 16px;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12;
+    text-transform: uppercase;
+}
+#banner .filter-fields select {
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2;
+    color: #212529;
+    background-color: #f4f4f4;
+    background-image: url('../img/arrow-select.svg');
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #f4f4f4;
+    border-radius: .0;
+    appearance: none;
 }
 #cards .cards-content {
     display: flex;
@@ -142,6 +227,7 @@ main h2 {
     justify-content: end;
     right: 20px;
     bottom: 20px;
+
 }
 #cards .card-price p {
     background-color: #0889d4;
@@ -151,7 +237,9 @@ main h2 {
     padding: 8px 16px;
 }
 
-
+#reasons {
+    margin-top: 0;
+}
 #reasons .reasons-content {
     display: flex;
     flex-direction: row;
@@ -179,7 +267,6 @@ main h2 {
 }
 
 
-
 #specialists .specialists-content {
     display: flex;
     flex-direction: row;
@@ -193,4 +280,146 @@ main h2 {
     border-radius: 16px;
     padding: 20px;
     color: #01528a;
+}
+#specialists .specialist h5 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+#specialists .specialist p {
+    font-size: 14px;
+    font-weight: 300;
+}
+#specialists .specialist-detail {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    text-align: justify;
+    padding-top: 16px;
+}
+
+#values .values-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+#values .values-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+}
+#values .values-content p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+}
+#values .values-detail {
+    padding: 32px;
+}
+#values .values-detail .value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#values .values-detail span{
+    background-image: url("../img/bullet-values.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+
+
+
+}
+
+
+footer {
+    background-color: #0889d4;
+    color: #fff;
+    margin-top: 48px;
+    padding: 48px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .footer-company {
+    width: 450px;
+}
+footer .footer-company .footer-logo {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 40px;
+    background-image: url('../img/logo_imobiliaria_branca.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 32px;
+    margin-bottom: 16x;
+}
+footer .footer-logo p {
+    font-size: 12px;
+    font-weight: 300;
+}
+footer .footer-menu {
+    font-size: 14px;
+    font-weight: 300;
+}
+footer .footer-menu-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .footer-menu ul {
+    margin-top: 16px;
+    list-style-type: none;
+}
+footer .footer-menu li {
+    margin-bottom: 8px;
+}
+footer .footer-menu a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .footer-menu a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 16px;
+}
+footer .footer-social span {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+}
+footer .footer-social .facebook {
+    background-image: url('../img/icon-facebook.svg');
+}
+footer .footer-social .twitter {
+    background-image: url('../img/icon-twitter.svg');
+}
+footer .footer-social .instagram {
+    background-image: url('../img/icon-instagram.svg');
+}
+footer .footer-social .linkedin {
+    background-image: url('../img/icon-linkedin.svg');
+}
+footer .footer-copyright {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: center;
 }
