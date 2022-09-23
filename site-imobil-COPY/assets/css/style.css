@@ -68,9 +68,6 @@ header li button {
     margin-left: 16px;
     line-height: 20px;
 }
-
-
-
 main {
     margin: 32px 0;
 }
@@ -85,8 +82,6 @@ main h2 {
 section {
     margin-top: 64px;
 }
-
-
 #banner {
     position: relative;
     height: 550px;
@@ -236,7 +231,6 @@ section {
     border-radius: 4px;
     padding: 8px 16px;
 }
-
 #reasons {
     margin-top: 0;
 }
@@ -265,8 +259,6 @@ section {
     font-size: 24px;
     color: #8f90a6;
 }
-
-
 #specialists .specialists-content {
     display: flex;
     flex-direction: row;
@@ -297,7 +289,6 @@ section {
     text-align: justify;
     padding-top: 16px;
 }
-
 #values .values-container {
     display: flex;
     flex-direction: row;
@@ -329,26 +320,18 @@ section {
     padding-left: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
-
-
-
-
 }
-
-
 footer {
     background-color: #0889d4;
     color: #fff;
     margin-top: 48px;
     padding: 48px 0;
 }
-
 footer .container {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-
 footer .footer-content {
     display: flex;
     flex-direction: row;
@@ -394,7 +377,6 @@ footer .footer-menu a {
 footer .footer-menu a:hover {
     text-decoration: underline;
 }
-
 footer .footer-social {
     display: flex;
     flex-direction: row;
