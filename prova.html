@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel dos Santos Scabeni</title>
+    <style>
+        body {
+            border: 2px solid black;
+            margin: 20px;
+            padding: 0 20px 20px 20px;
+        }
+        p, h2 {
+            padding: 0;
+            border: 0;
+        }
+        p {
+            text-align: center;
+        }
+        .blocos {
+            display: flex;
+            flex-direction: row;
+        }
+        .secao-2 .blocos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .secao-2 .blocos div{
+            width: 200px;
+        }
+        .secao-1 p {
+            color: #fff;
+        }
+        .bloco-azul {
+            background-color: #4285F4;
+            width: 25%;
+        }
+        .bloco-verde {
+            background-color: #0F9D58;
+            width: 50%;
+            margin: 0 20px 0 20px;
+        }
+        .bloco-vermelho {
+            background-color: #DB4437;
+            width: 25%;
+        }
+        .bloco-roxo {
+            border: 2px solid #903EEB;
+            color: #903EEB;
+        }
+        .bloco-amarelo {
+            border: 2px solid #F4B400;
+            color: #F4B400;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="secao-1">
+        <h2>Seção 1</h2>
+        <div class="blocos">
+            <div class="bloco-azul">
+                <p>#4285F4</p>
+            </div>
+            <div class="bloco-verde">
+                <p>#0F9D58</p>
+            </div>
+            <div class="bloco-vermelho">
+                <p>#DB4437</p>
+            </div>
+        </div>
+    </section>
+    <section class="secao-2">
+        <h2>Seção 2</h2>
+        <div class="blocos">
+            <div class="bloco-roxo">
+                <p>#903EEB</p>
+            </div>
+            <div class="bloco-amarelo">
+                <p>#F4B400</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
