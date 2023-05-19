@@ -1,7 +1,7 @@
 # DanielScabeni
 
 <a href="https://github.com/DanielScabeni">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=130&theme=chartreuse-dark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=300&theme=chartreuse-dark" />
 </a>
 <a href="https://github.com/DanielScabeni">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=130&theme=dark#gh-dark-mode-only" />
