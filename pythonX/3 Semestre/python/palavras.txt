@@ -1,8 +1,0 @@
-Quadro
-Mesa
-Roteador
-Firewall
-Nave
-Moto
-Grau
-Notebook
