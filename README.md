@@ -1,33 +1,51 @@
 # DanielScabeni
 
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni)](https://github.com/DanielScabeni/github-readme-stats)
-
 <div class="container">
   <div class="card">
-    [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni)](https://github.com/DanielScabeni/github-readme-stats)
+    <a href="https://github.com/DanielScabeni">
+      <img src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=chartreuse-dark" alt="GitHub Stats">
+    </a>
   </div>
   <div class="card">
-    <picture>
-      <source
-        srcset="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=dark"
-        media="(prefers-color-scheme: dark)"
-      />
-      <source
-        srcset="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-      />
-      <img src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true" />
-    </picture>
+    <a href="https://github.com/DanielScabeni">
+      <img src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=dark#gh-dark-mode-only" alt="GitHub Stats-Dark">
+    </a>
   </div>
 </div>
 
+<br>
+
 <div class="container">
-  <div class="card">
-    [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
+  <div class="card" style="border-right: 6px solid green;">
+    <a href="https://github.com/DanielScabeni/Random-Things">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=DanielScabeni&repo=Random-Things" alt="Readme Card">
+    </a>
   </div>
   <div class="card">
-    [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+    <a href="https://github.com/DanielScabeni/Random-Things">
+      <p style="color: white;">These repositories are used for various tests between functions, commands, files, directories, code variables, or even to save layouts used in other repositories</p>
+      <p style="color: white;">On some occasions, no one should have access to it, but it is public, be very careful, as it may have files with personal passwords</p>
+    </a>
+  </div>
+</div>
+
+<br>
+
+<div class="container">
+  <div class="card">
+    <a href="https://github.com/DanielScabeni">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=donut-vertical" alt="Top Langs">
+    </a>
+  </div>
+  <div class="card">
+    <a href="https://github.com/DanielScabeni">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&langs_count=8)](https://github.com/DanielScabeni" alt="Readme Card">
+    </a>
+  </div>
+  <div class="card">
+    <a href="https://github.com/DanielScabeni">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=pie" alt="Top Langs">
+    </a>
   </div>
 </div>
 
@@ -40,11 +58,23 @@
   flex: 1;
   margin-right: 10px;
 }
-
-img {
-  width: 100%;
-  height: auto;
-}
 </style>
 
- 
+# Só os cards
+
+
+![Daniel Scabeni's GitHub stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=chartreuse-dark)
+
+
+[![Anurag's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/DanielScabeni)
+
+#
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DanielScabeni&repo=Random-Things)](https://github.com/DanielScabeni/Random-Things)
+
+#
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&layout=donut-vertical)](https://github.com/DanielScabeni)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielScabeni&langs_count=8)](https://github.com/DanielScabeni)
+
