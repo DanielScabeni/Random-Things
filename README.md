@@ -7,9 +7,22 @@
 
 <br>
 
-| [![GitHub Stats](https://github-readme-stats.vercel.app/api/pin/?username=DanielScabeni&repo=Random-Things)](https://github.com/DanielScabeni/Random-Things) | <p style="color: white;">These repositories are used for various tests between functions, commands, files, directories, code variables, or even to save layouts used in other repositories</p>
-  <p style="color: white;">On some occasions, no one should have access to it, but it is public, be very careful, as it may have files with personal passwords</p> |
-| --- | --- |
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/DanielScabeni/Random-Things">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=DanielScabeni&repo=Random-Things" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/DanielScabeni/Random-Things">
+        <p style="color: white;">These repositories are used for various tests between functions, commands, files, directories, code variables, or even to save layouts used in other repositories</p>
+        <p style="color: white;">On some occasions, no one should have access to it, but it is public, be very careful, as it may have files with personal passwords</p>
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 <br>
 
