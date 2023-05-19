@@ -1,17 +1,11 @@
 # DanielScabeni
 
-<div class="container">
-  <div class="card" style="flex: 1; margin-right: 10px;">
-    <a href="https://github.com/DanielScabeni">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=chartreuse-dark" alt="GitHub Stats">
-    </a>
-  </div>
-  <div class="card">
-    <a href="https://github.com/DanielScabeni">
-      <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=dark#gh-dark-mode-only" alt="GitHub Stats-Dark">
-    </a>
-  </div>
-</div>
+<a href="https://github.com/DanielScabeni">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=chartreuse-dark" />
+</a>
+<a href="https://github.com/DanielScabeni">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&theme=dark#gh-dark-mode-only" />
+</a>
 
 <br>
 
