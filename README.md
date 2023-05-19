@@ -1,6 +1,7 @@
 # DanielScabeni
 
-| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=300&theme=chartreuse-dark)](https://github.com/DanielScabeni) | [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=130&theme=dark#gh-dark-mode-only)](https://github.com/DanielScabeni) |
+| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=300&theme=chartreuse-dark)](https://github.com/DanielScabeni) 
+| [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DanielScabeni&show_icons=true&card_width=130&theme=dark#gh-dark-mode-only)](https://github.com/DanielScabeni) |
 | --- | --- |
 
 
